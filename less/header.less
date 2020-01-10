@@ -1,0 +1,292 @@
+h1 {
+	font-family: 'Nosifer', cursive;
+	font-size: 10rem;
+	margin: auto -85%;
+	justify-content: center;
+	align-content: center;
+	
+	@media @mobile {
+		font-size: 4rem;
+		margin: auto -5%;
+	}
+	@media @tablet {
+		font-size: 4rem;
+		margin: auto -5%;
+	}
+ 	.C {
+		color: red;
+	}
+	.E1 {
+		color: orange;
+	}
+	.L {
+		color: yellow;
+	}
+	.E2 {
+		color: green;
+	}
+	.B {
+		color: blue;
+	}
+	.R {
+		color: indigo;
+	}
+	.I {
+		color: violet;
+	}
+	.D1, .E3, .A, .D2 {
+		color: rgb(66, 66, 66);
+		text-shadow: 2px 2px 15px limegreen;
+	}
+	// .E3 {
+	// 	color: gray;
+	// }
+	// .A {
+	// 	color: lightgray;
+	// }
+	// .D2 {
+	// 	color: silver;
+	// }
+
+  }
+
+  .title2 {
+  h2 {
+	
+	color: @font1;
+	font-size: 8rem;
+	font-weight: bold;
+	padding: auto;
+	text-align: center;
+	margin: 30px 0 0 0;
+	line-height: 1.7em;
+	text-shadow: 2px 2px 15px limegreen;
+	@media @mobile {
+		font-size: 3rem;
+	}
+	@media @tablet {
+		font-size: 3rem;
+	}
+  }
+}
+  p {
+	line-height: 1.3;
+	color: #651186;
+  }
+  
+  .hdtxt {
+	text-shadow: 0 0 15px #ffffff;
+	z-index: 99;
+	margin: 0px 0 75px 0;
+	padding: 20px 0;
+	text-align: center;
+
+ p {
+	font-size: 2em;
+	line-height: 1.5;
+	font-weight: bold;
+	letter-spacing: .2em;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	@media @mobile {
+		font-size: 1em;
+	}
+	@media @tablet {
+		font-size: 1em;
+	}
+ }
+ 
+  }
+
+  .p1, .p2a, .p2b, .p3 {
+	  border: 5px outset @font1;
+	  padding: 1.5%;
+	  background-image: @bg6; 
+	  color: snow;
+	  text-shadow: 2px 2px 15px black;
+	  font-family: 'Indie Flower', cursive;
+	  box-shadow: 3px 3px 15px limegreen;
+  }
+
+  .p1:hover, .p2a:hover, .p2b:hover, .p3:hover{
+	border: 5px inset @font1; 
+	color: black;
+	background-image: @bg3;
+  }
+
+  .p1, .p3 {
+	margin: 1% 35%;	
+	display: flex;
+	align-items: center;
+  }
+  .p1{
+	border-radius: 40% 40% 10% 10%; 
+    
+	@media @mobile {
+		width: 100%;
+		border-radius: 2%;
+		margin: 2% 0;
+	}
+	@media @tablet {
+		width: 100%;
+		border-radius: 2%;
+		margin: 2% 0;
+	}
+  }
+ .p3{
+	border-radius: 10% 10% 40% 40%;
+	@media @mobile {
+		width: 100%;
+		border-radius: 2%;
+		margin: 2% 0;
+	}
+	@media @tablet {
+		width: 100%;
+		border-radius: 2%;
+		margin: 2% 0;
+	}
+  }
+.p2a, .p2b{
+	margin: 1% .25% 0 0;
+	width: 35%;
+}
+.p2a{
+	border-radius: 30% 30% 60% 40%;
+	width: 35%;
+	transform: skew(25deg);
+	@media @mobile {
+		width: 100%;
+		border-radius: 2%;
+	}
+	@media @tablet {
+		width: 100%;
+		border-radius: 2%;
+	}
+}
+.p2b{
+	border-radius: 50% 40% 30% 30%;
+	width: 35%;
+	transform: skew(-25deg);
+	@media @mobile {
+		width: 100%;
+		border-radius: 2%;
+	}
+
+	@media @tablet {
+		width: 100%;
+		border-radius: 2%;
+	}
+	
+}
+  
+  .midp{
+	 display: flex; 
+	 margin: auto 0% 0 25%;
+	 align-items: center;
+	 
+	 @media @mobile {
+		 flex-direction: column;
+		 margin: 2% 0;
+	 }
+	 @media @tablet {
+		flex-direction: column;
+		margin: 0;
+	}
+  }
+  .dead, .alive {
+	border: 3px outset white;
+	padding:10px;
+	font-size: 5rem;
+	font-weight: bold;
+	position: relative;
+	text-shadow: 2px 2px 15px whitesmoke;
+	box-shadow: 3px 3px 15px limegreen;	
+
+	@media @mobile {
+		font-size: 2rem;
+		padding: 3px;
+		border: 1.5px outset white;
+	}
+	@media @tablet {
+		font-size: 2rem;
+		padding: 3px;
+		border: 1.5px outset white;
+	}
+  }
+  
+  .dead{
+   background: grey;
+   color: black;
+   border-radius: 50% 2%;
+  }
+  .dead:hover{
+	border: 4px inset white;
+	background: black;
+
+	@media @mobile {
+		border: 2.5px inset white;
+	}
+	@media @tablet {
+		border: 2.5px inset white;
+	}
+  }
+  .alive{
+	background: rgb(2, 143, 143);
+	color: blue;
+	border-radius: 2% 50%;
+  }
+  .alive:hover{
+	border: 4px inset white;
+	background: navy;
+	color: aquamarine;
+	@media @mobile {
+	 border: 2.5px inset white;
+	}
+	@media @tablet {
+		border: 2.5px inset white;
+	   }
+  }
+  
+  strong {
+	font-weight: bold;
+  }
+  header {
+	position: relative;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: none;
+	overflow: hidden;
+	text-shadow: 0 0 15px #ffffff, 0 0 15px #ffffff;
+  
+.celebs {
+	position: absolute;
+	height: 500px;
+	width: 4700px;
+	background-image: url("/img/celebs.jpg");
+	animation: move 150s infinite linear;
+	will-change: transform;
+	opacity: 0.5;
+  }
+.celebridead {
+	position: absolute;
+	height: 100%;
+	background-image: linear-gradient(#4bd1a9, #effde4);
+  }
+.header {
+	z-index: 99;
+	align-items: left;
+	width: 400px;
+	padding: 25px;
+  }
+.header h2 {
+	color: @font1;
+  }
+}
+

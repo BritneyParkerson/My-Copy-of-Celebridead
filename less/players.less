@@ -1,0 +1,210 @@
+#players{
+	height: 100%;
+	
+    font-family: 'Indie Flower', cursive;
+    color: #222;
+    font-size: 1.6rem;
+    background-image: @bg10;
+	
+	@media @mobile{
+	  background-image: @bg2;
+    }
+
+
+section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+}
+
+h3 {
+	font-family: 'Nosifer', cursive;
+	font-size: 10rem;
+	text-align: center;
+	margin: auto;
+	text-shadow: 2px 2px 15px rgb(90, 2, 50);
+	transform: skew(25deg);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	@media @mobile {
+		font-size: 4rem;
+	}
+	@media @tablet {
+		font-size: 4rem;
+	}
+ 	.cp {
+		color: #87FF2A;
+	}
+	.e1p {
+		color: #E77200;
+	}
+	.lp {
+		color: #00755E;
+	}
+	.e2p {
+		color: #E30B5C;
+	}
+	.bp {
+		color: #8FD400;
+	}
+	.rp {
+		color: #803790;
+	}
+	.ip {
+		color: #2E2D88;
+	}
+	.d1p, .e3p, .ap, .d2p {
+		color:#1A1110;
+		text-shadow: 2px 2px 15px #FFFF31;
+	}
+}
+
+.clients {
+	position: absolute;
+	height: 475px;
+	width: 9000px;
+	background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/GD2DKPODY2.jpg");
+	animation: move 225s infinite linear;
+	will-change: transform;
+	opacity: 0.7;
+  }
+
+h4 {
+ font-size: 10rem;
+ font-family: 'Fredericka the Great', cursive;
+ display: flex;
+ justify-content: space-evenly;
+ align-content: center;
+
+ @media @mobile {
+     font-size: 3rem;
+ }
+ @media @tablet {
+    font-size: 3rem;
+ }
+}
+
+.T-1, .T-3, .T-5, .T-7, .T-9, .T-11, .T-13, .T-15 {
+	color: #50BFE6;
+	.shadow2
+
+}
+
+.T-2, .T-4, .T-6, .T-8, .T-10, .T-12, .T-14 {
+	color: #EE34D2;
+	.shadow
+	
+}
+//Thoughts
+
+.thoughts {
+	margin: 2% auto;
+	display: inline-block;
+	text-align: left;
+	font-size: 30px;
+	border: 2px solid black;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+
+p {
+	padding: 0 2% 0 2%;
+	color: black;
+	font-size: 1.3em;
+}
+
+
+.Negan, .Sage, .Toby, .Phoebe, .Ryuk, .Melodey {
+	border: 2px solid grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.Negan, .Toby, .Ryuk {
+ background: repeating-linear-gradient(#AAF0D1 0%, #5DADEC 50%, #AAF0D1 100%);
+
+ img{
+	 margin-right: 1%;
+	 @media @mobile{
+		width: 20%;
+		height: 20%;
+	 }
+	 @media @tablet{
+		width: 20%;
+		height: 20%;
+	 }
+ }
+}
+
+.Sage, .Phoebe, .Melodey {
+   background: repeating-linear-gradient(#66FF66 0%, #299617 50%, #66FF66 100%);
+
+   img{
+	margin-left: 1%;
+	@media @mobile{
+		width: 20%;
+		height: 20%;
+	 }
+	 @media @tablet{
+		width: 20%;
+		height: 20%;
+	 }
+}
+}
+
+@media @mobile{
+	font-size: 0.25em;
+ }
+ @media @tablet{
+	font-size: 0.25em;
+ }
+
+}
+
+.comments {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	width: 80%;
+	margin: auto 10%;
+	font-size: 1.5em;
+	h4{
+	margin-bottom: 1%;
+	.shadow
+	}
+
+	div{
+		font-size: 2em;
+		margin-bottom: 1%;
+		@media @mobile{
+			font-size: 0.75em;
+		 }
+		 @media @tablet{
+			font-size: 0.75em;
+		 }
+	}
+
+	input {
+		font-size: 0.75em;
+		@media @mobile{
+			font-size: 0.5em;
+		 }
+		 @media @tablet{
+			font-size: 0.5em;
+		 }
+	}
+	textarea{
+		width: 50%;
+	}
+}
+
+}

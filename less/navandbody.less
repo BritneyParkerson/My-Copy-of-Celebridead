@@ -1,0 +1,111 @@
+html {
+  background-color: #effde4;
+  font-size: 62.5%;
+}
+#homepage {
+  height: 100%;
+  font-family: 'Indie Flower', cursive;
+  color: #222;
+  font-size: 1.6rem;
+  background-image: @bg7;
+}
+
+/*****Header Navigation*****/
+.navigation{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: nowrap;
+  font-size: 1.7em;
+  padding: 1.5% 0;  
+  
+  @media @mobile {
+    font-size: 0.7em;
+  }
+
+  @media @tablet {
+    font-size: 0.7em;
+  }
+
+.hdnav a, .account a{
+  border: 5px outset indigo;
+  padding: 15px 40px; 
+  border-radius: 30%;
+  background: @bg8;
+  color: white;
+
+  @media @mobile {
+    border: 2px outset silver;
+    background: @bg9;
+    padding: 5px; 
+    color: snow;
+  }
+
+  @media @tablet {
+    border: 2px outset silver;
+    background: @bg9;
+    padding: 5px; 
+    color: snow;
+  }
+  
+}
+
+.hdnav a:hover, .account a:hover{
+  background: @bg9;
+  color: snow;
+  border: 7px inset silver;
+
+  @media @mobile {
+    border: 2px inset indigo;
+    background: @bg8;
+    padding: 5px; 
+    color: white;
+  }
+
+  @media @tablet {
+    border: 2px inset indigo;
+    background: @bg8;
+    padding: 5px; 
+    color: white;
+  }
+
+}
+
+}
+
+/***Take Quiz Button***/
+
+#takequiz {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 33.4%;
+  font-size: 8rem;
+  text-align: center;
+  margin: 0 33.3% 10%;
+  padding: 25px 15px;
+  font-weight: bold;
+  border-radius: 50% 2% 50%;
+  border: 5px outset black;
+  background-image: @bg4;  
+  font-family: 'Creepster', cursive;
+  color: black;
+  text-shadow: 2px 2px 15px limegreen;
+  box-shadow: 3px 3px 15px limegreen;
+
+  @media @mobile {
+    width: 100%;
+    font-size: 3rem;
+    margin: 0;
+  }
+  @media @tablet {
+    width: 100%;
+    font-size: 3rem;
+    margin: 0;
+  }
+}
+
+#takequiz:hover{
+  border: 7px inset silver;
+  background-image: @bg5;
+}

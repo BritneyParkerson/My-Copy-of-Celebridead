@@ -1,0 +1,117 @@
+#login-page{
+	height: 100%;
+	
+    font-family: 'Indie Flower', cursive;
+    color: #222;
+    font-size: 1.6rem;
+    background-image: @bg12;
+	
+	// @media @mobile{
+	//   background-image:;
+    // }
+
+
+
+h3 {
+	font-family: 'Nosifer', cursive;
+	font-size: 10rem;
+	text-align: center;
+	margin: auto;
+	text-shadow: 2px 2px 15px rgb(90, 2, 50);
+	transform: skew(25deg);
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	@media @mobile {
+		font-size: 4rem;
+	}
+	@media @tablet {
+		font-size: 4rem;
+	}
+ 	.R0, .G0, .S0, .E00{
+		color: white;
+		text-shadow: 2px 2px 15px black;
+	}
+	.E0, .I0, .T0, .R00 {
+		color: black;
+		text-shadow: 2px 2px 15px white;
+	}
+
+}
+
+.log {
+	position: absolute;
+	height: 475px;
+	width: 9000px;
+	background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/COVDWMSKLR.jpg");
+	animation: move 225s infinite linear;
+	will-change: transform;
+	opacity: 0.7;
+
+	@media @mobile{
+		height: 400px;
+	 }
+	 @media @tablet{
+		height: 400px;
+	 }
+  }
+
+  .logins {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	width: 80%;
+	margin: auto 20%;
+	font-size: 1.5em;
+	h4{
+	margin-bottom: 1%;
+	text-shadow: -1px -1px 0 black,
+		1px -1px 0 black,
+		-1px 1px 0 black,
+		1px 1px 0 black;
+	}
+
+	h4 {
+		font-size: 3em;
+		color: lime;
+		font-family: 'Fredericka the Great', cursive;
+		@media @mobile{
+			font-size: 1em;
+		 }
+		 @media @tablet{
+			font-size: 1em;
+		 }
+
+	}
+
+	div{
+		color: lime;
+		margin: auto 10%;
+		text-shadow: -1px -1px 0 black,
+		1px -1px 0 black,
+		-1px 1px 0 black,
+		1px 1px 0 black;
+		font-size: 2em;
+		margin-bottom: 1%;
+		@media @mobile{
+			font-size: 0.75em;
+		 }
+		 @media @tablet{
+			font-size: 0.75em;
+		 }
+	}
+
+	input {
+		font-size: 0.75em;
+		@media @mobile{
+			font-size: 0.5em;
+		 }
+		 @media @tablet{
+			font-size: 0.5em;
+		 }
+		 
+	}
+	
+}
+}

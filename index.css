@@ -1,0 +1,64 @@
+header {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+    overflow: hidden;
+    text-shadow: 0 0 15px #ffffff, 0 0 15px #ffffff;
+  }
+  header div.cover {
+    position: absolute;
+    height: 500px;
+    width: 4000px;
+    background-image: url("/img/floatbg02.jpg");
+    animation: move 50s infinite linear;
+    will-change: transform;
+    opacity: 0.5;
+  }
+  header div.mainbg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#4bd1a9, #effde4);
+  }
+  header div.header {
+    z-index: 99;
+    align-items: left;
+    width: 400px;
+    padding: 25px;
+  }
+  header div.header h2 {
+    color: #020873;
+  }
+  header.about {
+    height: 300px;
+    background-image: linear-gradient(#4bd1a9, #effde4);
+  }
+  header div.about {
+    align-items: left;
+    width: 400px;
+    padding: 25px;
+    border: 10px solid #020873;
+  }
+  header div.about h2 {
+    color: #020873;
+  }
+  header h2.about {
+    font-size: 3rem;
+  }
+  @keyframes move {
+    0% {
+      transform: translateY(0px) translateX(1000px);
+    }
+    50% {
+      transform: translateY(0px) translateX(-1000px);
+    }
+    100% {
+      transform: translateY(0) translateX(1000px);
+    }
+  }
